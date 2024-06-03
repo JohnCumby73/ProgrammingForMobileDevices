@@ -2,18 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import NavBar from './NavBar'
-import Movie from './Movie'
-import MovieList from './MovieList';
-import moviesData from './movies.json'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <NavBar />
-    <MovieList movies={moviesData.movies} />
   </React.StrictMode>
 );
 
