@@ -21,7 +21,12 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "scheme" : "Top 3 Items",
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
