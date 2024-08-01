@@ -18,10 +18,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.Assignment3"
     },
     "web": {
-      "scheme" : "Top 3 Items",
+      "scheme": "Top 3 Items",
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
